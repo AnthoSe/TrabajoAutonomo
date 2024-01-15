@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fiesta de Cuenca - Encuesta</title>
+    <!-- Agrega la referencia al archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Agrega tu archivo de estilos personalizados si lo tienes -->
+    <link rel="stylesheet" href="public/css/estilos.css">
+</head>
+<body>
+
+    <!-- Header con título centrado -->
+    <header class="text-center py-4 bg-dark text-light">
+        <h1 class="display-4">Fiesta de Cuenca</h1>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="encuesta.html">Encuesta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Acerca de</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Inicial -->
+    <section class="container mt-4">
+        <!-- Formulario de la encuesta -->
+        <form action="#" method="post">
+            <!-- Pregunta 1 -->
+            <div class="form-group">
+                <label for="experiencia">¿Cómo calificarías tu experiencia en la Fiesta de Cuenca?</label>
+                <select class="form-control" id="experiencia" name="experiencia">
+                    <option value="excelente">Excelente</option>
+                    <option value="buena">Buena</option>
+                    <option value="regular">Regular</option>
+                    <option value="mala">Mala</option>
+                </select>
+            </div>
+
+            <!-- Pregunta 2 -->
+            <div class="form-group">
+                <label for="comentario">Comentarios adicionales:</label>
+                <textarea class="form-control" id="comentario" name="comentario" rows="4"></textarea>
+            </div>
+
+            <!-- Pregunta 3 -->
+            <div class="form-group">
+                <label for="tiktok">Enlace de TikTok:</label>
+                <input type="text" class="form-control" id="tiktok" name="tiktok">
+            </div>
+
+            <!-- Pregunta 4 -->
+            <div class="form-group">
+                <label for="instagram">Enlace de Instagram:</label>
+                <input type="text" class="form-control" id="instagram" name="instagram">
+            </div>
+
+            <!-- Botón de envío -->
+            <button type="submit" class="btn btn-primary">Enviar Encuesta</button>
+        </form>
+    </section>
+        <!-- Footer con redes sociales -->
+<footer class="bg-dark text-light text-center py-3 mt-4">
+  <!-- Agrega aquí tus enlaces a redes sociales -->
+  <p>Síguenos en redes sociales:</p>
+  <!-- Ejemplo de iconos de redes sociales de Bootstrap -->
+  <a href="https://www.facebook.com"><img src="public/img/facebook.png" alt="Facebook" ></a>
+  <a href="https://www.instagram.com"><img src="public/img/instagram.png" alt="Instagram" ></a>
+  <a href="https://twitter.com"><img src="public/img/twitter.png" alt="Twitter"></a>
+</footer>
+
+    <!-- Agrega las referencias a Bootstrap y jQuery al final del body para mejorar la carga -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Agrega aquí tus scripts personalizados si los tienes -->
+    <script src="public/js/scripts.js"></script>
+</body>
+</html>

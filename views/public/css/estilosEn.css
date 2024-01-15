@@ -1,0 +1,50 @@
+/* Estilos adicionales para la encuesta */
+body {
+    background-color: #f8f9fa; /* Color de fondo */
+    color: #343a40; /* Color de texto principal */
+    min-height: 100vh; /* Establece la altura mínima del cuerpo como el 100% de la altura visible del dispositivo */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para el formulario de la encuesta */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar solo verticalmente */
+    max-width: 100%; /* Ajusta el ancho máximo al contenedor */
+}
+
+.btn-primary {
+    margin-top: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #343a40; /* Color de fondo del footer */
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Estilos para los enlaces del footer */
+footer li {
+    list-style: none;
+    font: bold 14px Arial, sans-serif;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+}
