@@ -1,0 +1,44 @@
+/* Agrega tus estilos personalizados aquí */
+.navbar {
+    background-color: #343a40; /* Color de fondo del navbar */
+    margin-bottom: 20px; /* Separación del contenido */
+}
+
+/* Cambiar color al pasar el mouse sobre los enlaces del navbar */
+.navbar-nav .nav-link:hover {
+    color: #fff !important; /* Cambiar color del texto al pasar el mouse */
+}
+
+/* Centrar el navbar */
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+/* Estilos para la sección Acerca de */
+section {
+    background-color: #ffffff; /* Color de fondo del contenido principal */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Separación del contenido */
+}
+
+/* Estilos para los enlaces del footer */
+footer {
+    background-color: #343a40; /* Color de fondo del footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para los enlaces del footer */
+footer li {
+    list-style: none;
+    font: bold 14px Arial, sans-serif;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+}

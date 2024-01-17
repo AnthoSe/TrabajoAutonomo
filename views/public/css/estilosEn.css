@@ -1,4 +1,4 @@
-/* Estilos adicionales para la encuesta */
+/* Estilos generales */
 body {
     background-color: #f8f9fa; /* Color de fondo */
     color: #343a40; /* Color de texto principal */
@@ -7,12 +7,40 @@ body {
     flex-direction: column;
 }
 
+/* Estilos para el header */
+header {
+    background-color: #343a40; /* Color de fondo del header */
+}
+
+header h1 {
+    color: #ffffff; /* Color del texto del header */
+}
+
+/* Estilos para el navbar */
+.navbar {
+    background-color: #343a40; /* Color de fondo del navbar */
+    margin-bottom: 20px; /* Separación del contenido */
+}
+
+/* Cambiar color al pasar el mouse sobre los enlaces del navbar */
+.navbar-nav .nav-link:hover {
+    color: #fff !important; /* Cambiar color del texto al pasar el mouse */
+}
+
+/* Centrar el navbar */
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 /* Estilos para el formulario de la encuesta */
 form {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 label {
@@ -37,14 +65,36 @@ footer {
 }
 
 /* Estilos para los enlaces del footer */
-footer li {
-    list-style: none;
-    font: bold 14px Arial, sans-serif;
-    display: inline-block;
-    margin: 0 10px;
+footer a {
+    color: #fff;
+    margin-right: 10px;
+    display: inline-block; /* Alinea los elementos en una fila */
 }
 
+/* Estilos para los iconos del footer */
 footer img {
-    width: 32px;
-    height: 32px;
+    width: 24px; /* Ajusta el tamaño de los iconos según tu preferencia */
+    height: 24px;
+}
+
+/* Estilos para las secciones */
+.container {
+    margin-top: 20px;
+}
+
+/* Estilos para la imagen en el aside */
+aside img {
+    width: 100%; /* La imagen ocupará todo el ancho disponible en el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos para el video de Cuenca */
+.embed-responsive-16by9 {
+    margin-top: 20px;
+}
+
+.embed-responsive-item {
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
 }
